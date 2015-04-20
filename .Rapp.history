@@ -1,0 +1,4 @@
+/Users/julienlannelongue/GitHub/R/IntroToRSoftware.R
+NHIS<-read.csv("nhisdata.txt",header=T)
+MFP<-read.csv("/JLA/Sauvegarde/Dropbox/Santé/Hierarchie.csv",header=T,sep=";")
+str(MFP)
